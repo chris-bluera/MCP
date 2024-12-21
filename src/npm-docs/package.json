@@ -1,0 +1,15 @@
+{
+  "name": "@modelcontextprotocol/server-npm-docs",
+  "version": "0.1.0",
+  "description": "MCP server for npm package documentation",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9"
+  }
+}

@@ -1,0 +1,11 @@
+# Cline Rules
+
+## Git Commands
+- Always use --no-pager with git commands to avoid paging
+- Example: git --no-pager log instead of git log
+
+## Command Transformations
+git log -> git --no-pager log
+git diff -> git --no-pager diff
+git show -> git --no-pager show
+git blame -> git --no-pager blame
